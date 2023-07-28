@@ -14,6 +14,12 @@
 		4A180548246AAF020044387A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A180547246AAF020044387A /* Assets.xcassets */; };
 		4A18054B246AAF020044387A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A180549246AAF020044387A /* LaunchScreen.storyboard */; };
 		4A18054E246AAF020044387A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18054D246AAF020044387A /* main.m */; };
+		4A180556246AAF2A0044387A /* ITSE2EExpandableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A180555246AAF2A0044387A /* ITSE2EExpandableView.m */; };
+		4A180558246AAF400044387A /* ITSE2EExpandableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A180557246AAF400044387A /* ITSE2EExpandableView.xib */; };
+		4A18055B246AB7060044387A /* ITSE2ECardDetailsListBulletView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18055A246AB7060044387A /* ITSE2ECardDetailsListBulletView.m */; };
+		4A18055D246AB74F0044387A /* ITSE2ECardDetailsListBulletView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A18055C246AB74F0044387A /* ITSE2ECardDetailsListBulletView.xib */; };
+		4A180560246ADB210044387A /* ITSE2ECardDetailsDocumentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18055F246ADB210044387A /* ITSE2ECardDetailsDocumentsView.m */; };
+		4A180562246AE6160044387A /* ITSE2ECardDetailsDocumentsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A180561246AE6160044387A /* ITSE2ECardDetailsDocumentsView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +35,15 @@
 		4A18054A246AAF020044387A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A18054C246AAF020044387A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A18054D246AAF020044387A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A180554246AAF2A0044387A /* ITSE2EExpandableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITSE2EExpandableView.h; sourceTree = "<group>"; };
+		4A180555246AAF2A0044387A /* ITSE2EExpandableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITSE2EExpandableView.m; sourceTree = "<group>"; };
+		4A180557246AAF400044387A /* ITSE2EExpandableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ITSE2EExpandableView.xib; sourceTree = "<group>"; };
+		4A180559246AB7060044387A /* ITSE2ECardDetailsListBulletView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITSE2ECardDetailsListBulletView.h; sourceTree = "<group>"; };
+		4A18055A246AB7060044387A /* ITSE2ECardDetailsListBulletView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITSE2ECardDetailsListBulletView.m; sourceTree = "<group>"; };
+		4A18055C246AB74F0044387A /* ITSE2ECardDetailsListBulletView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ITSE2ECardDetailsListBulletView.xib; sourceTree = "<group>"; };
+		4A18055E246ADB210044387A /* ITSE2ECardDetailsDocumentsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITSE2ECardDetailsDocumentsView.h; sourceTree = "<group>"; };
+		4A18055F246ADB210044387A /* ITSE2ECardDetailsDocumentsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITSE2ECardDetailsDocumentsView.m; sourceTree = "<group>"; };
+		4A180561246AE6160044387A /* ITSE2ECardDetailsDocumentsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ITSE2ECardDetailsDocumentsView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +87,15 @@
 				4A180549246AAF020044387A /* LaunchScreen.storyboard */,
 				4A18054C246AAF020044387A /* Info.plist */,
 				4A18054D246AAF020044387A /* main.m */,
+				4A180554246AAF2A0044387A /* ITSE2EExpandableView.h */,
+				4A180555246AAF2A0044387A /* ITSE2EExpandableView.m */,
+				4A180557246AAF400044387A /* ITSE2EExpandableView.xib */,
+				4A180559246AB7060044387A /* ITSE2ECardDetailsListBulletView.h */,
+				4A18055A246AB7060044387A /* ITSE2ECardDetailsListBulletView.m */,
+				4A18055C246AB74F0044387A /* ITSE2ECardDetailsListBulletView.xib */,
+				4A18055E246ADB210044387A /* ITSE2ECardDetailsDocumentsView.h */,
+				4A18055F246ADB210044387A /* ITSE2ECardDetailsDocumentsView.m */,
+				4A180561246AE6160044387A /* ITSE2ECardDetailsDocumentsView.xib */,
 			);
 			path = StackViewExpandableView;
 			sourceTree = "<group>";
@@ -133,9 +157,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A180558246AAF400044387A /* ITSE2EExpandableView.xib in Resources */,
 				4A18054B246AAF020044387A /* LaunchScreen.storyboard in Resources */,
 				4A180548246AAF020044387A /* Assets.xcassets in Resources */,
 				4A180546246AAEFF0044387A /* Main.storyboard in Resources */,
+				4A180562246AE6160044387A /* ITSE2ECardDetailsDocumentsView.xib in Resources */,
+				4A18055D246AB74F0044387A /* ITSE2ECardDetailsListBulletView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +176,9 @@
 				4A180543246AAEFF0044387A /* ViewController.m in Sources */,
 				4A18053D246AAEFF0044387A /* AppDelegate.m in Sources */,
 				4A18054E246AAF020044387A /* main.m in Sources */,
+				4A18055B246AB7060044387A /* ITSE2ECardDetailsListBulletView.m in Sources */,
+				4A180560246ADB210044387A /* ITSE2ECardDetailsDocumentsView.m in Sources */,
+				4A180556246AAF2A0044387A /* ITSE2EExpandableView.m in Sources */,
 				4A180540246AAEFF0044387A /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
